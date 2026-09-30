@@ -1,4 +1,4 @@
-# 📚 Rangkuman Kelas: Belajar Machine Learning untuk Pemula
+<img width="797" height="125" alt="image" src="https://github.com/user-attachments/assets/7bf67f98-678c-4fe7-a098-d5b23b61888e" /># 📚 Rangkuman Kelas: Belajar Machine Learning untuk Pemula
 
 ## 📑 Daftar Isi
 
@@ -225,13 +225,17 @@ Proses loading dataset biasanya mencakup pengambilan data dari sumber eksternal 
 
 Data Cleaning atau pembersihan data adalah proses penting dalam alur kerja machine learning yang bertujuan untuk meningkatkan kualitas dataset sebelum digunakan untuk pelatihan model. Dalam konteks machine learning, data cleaning mencakup serangkaian langkah yang dirancang untuk mendeteksi, memperbaiki, atau menghapus data yang tidak valid, tidak lengkap, tidak akurat, atau tidak relevan. Silakan simak gambar berikut dan perhatikan secara saksama.
 
-![Uploading image.png…]()
+<img width="1087" height="476" alt="image" src="https://github.com/user-attachments/assets/23f71e2f-e38a-4666-9f15-d6aad7e22459" />
+
+
 
 ### Exploratory dan Explanatory Data Analysis
 
 EDA merupakan tahap eksplorasi data yang telah dibersihkan guna memperoleh insight dan menjawab pertanyaan analisis. Pada prosesnya, kita akan sering menggunakan berbagai teknik dan parameter dalam descriptive statistics yang bertujuan untuk menemukan pola, hubungan, serta membangun intuisi terkait data yang diolah. Selain itu, tidak jarang kita juga menggunakan visualisasi data untuk menemukan pola dan memvalidasi parameter descriptive statistics yang diperoleh.
 
-> 🖼️ *Gambar: `dos-4b4f18453bec4ed4fba4849eadd84f6b20241015133223.jpeg`*
+<img width="1086" height="431" alt="image" src="https://github.com/user-attachments/assets/82813858-a58f-4901-b846-17a92edb3d56" />
+
+
 
 Menurut pandangan para praktisi data, EDA (Exploratory Data Analysis) adalah salah satu tahap yang paling sexy dalam proyek analisis data. Tahap ini memungkinkan para praktisi untuk mengeksplorasi dan bereksperimen dengan data guna menemukan pola, mendapatkan wawasan, menjawab berbagai tantangan bisnis serta menyusun kesimpulan berdasarkan hasil analisis yang diperoleh.
 
@@ -583,7 +587,7 @@ Regresi adalah salah satu teknik dalam machine learning yang memiliki kesamaan d
 
 Sebaliknya, pada regresi model akan memprediksi sebuah nilai numerik yang bersifat kontinu, seperti memprediksi harga rumah berdasarkan berbagai faktor seperti luas tanah, jumlah kamar, dan lokasi.
 
-> 🖼️ *Gambar: `dos-d45dedca6eb765a9d4b2dac10c65368920241016132736.jpeg`*
+<img width="1060" height="503" alt="image" src="https://github.com/user-attachments/assets/045e3165-7673-4f19-a4ac-942e4d396bd3" />
 
 Bilangan kontinu yang diprediksi oleh model regresi adalah bilangan numerik yang tidak terbatas pada nilai-nilai diskrit. Sebagai contoh, dalam klasifikasi Anda mungkin memprediksi apakah seseorang lulus atau tidak lulus ujian (dua kelas atau kategori), sedangkan dalam regresi, Anda memprediksi nilai ujian seseorang dalam bentuk angka, misalnya 85,3.
 
@@ -593,7 +597,8 @@ Seperti yang sudah Anda pelajari, regresi adalah salah satu teknik dalam statist
 
 Tujuan utama regresi adalah untuk memprediksi nilai dari variabel dependen berdasarkan nilai dari variabel independen. Namun, tahukah Anda bahwa setiap jenis regresi memiliki cara kerja dan kegunaan yang berbeda?
 
-> 🖼️ *Gambar: `dos-2dc7c2027ca61dce29c5dd5feaf2abd820241016132737.jpeg`*
+<img width="1073" height="473" alt="image" src="https://github.com/user-attachments/assets/9a18ff25-5928-4e1b-b566-480435ff3dae" />
+
 
 #### Linear Regression
 
@@ -633,19 +638,22 @@ Evaluasi model regresi adalah langkah penting dalam proses membangun model predi
 
 Setelah membangun model, penting untuk mengevaluasi seberapa baik model tersebut bekerja. Evaluasi ini membantu kita untuk memahami seberapa akurat prediksi model, mengetahui jika model terlalu rumit atau terlalu sederhana, dan memastikan bahwa model tidak hanya baik pada data latihan tetapi juga pada data baru.
 
-> 🖼️ *Gambar: `dos-121ffcc7be1f722502d4410030538cd920241016132736.jpeg`*
+<img width="1075" height="566" alt="image" src="https://github.com/user-attachments/assets/c15edbda-a0bd-4142-82e4-134d2ae8e500" />
+
 
 #### Mean Absolute Error (MAE)
 
 MAE adalah rata-rata dari kesalahan dengan nilai absolut antara nilai sebenarnya dan nilai prediksi.
 
-> 🖼️ *Gambar: `dos-e9ab79a2927ae9d6e45caf697a41581820241016132736.jpeg`*
+<img width="307" height="105" alt="image" src="https://github.com/user-attachments/assets/248d6659-3868-4f9d-a03d-526ca28b0396" />
+
 
 #### Mean Squared Error (MSE)
 
 MSE adalah nilai rata-rata dari kuadrat kesalahan antara nilai sebenarnya dan nilai prediksi. MSE dapat digambarkan dengan rumus matematika seperti berikut.
 
-> 🖼️ *Gambar: `dos-561c465eb8765ebb1df61175e90ef52220241016132736.jpeg`*
+<img width="318" height="96" alt="image" src="https://github.com/user-attachments/assets/ca504166-915d-4e7a-a641-8b26f7aa5fa1" />
+
 
 #### Root Mean Squared Error (RMSE)
 
@@ -657,7 +665,8 @@ R-squared juga dikenal sebagai coefficient of determination adalah salah satu me
 
 R-squared dihitung dengan menggunakan perbandingan antara variasi total dalam data dan variasi yang dapat dijelaskan oleh model regresi. Secara matematis, R-squared dapat ditulis sebagai berikut.
 
-> 🖼️ *Gambar: `dos-4e389dec12aef06b5023927941a92ab320241016132736.jpeg`*
+<img width="198" height="77" alt="image" src="https://github.com/user-attachments/assets/bba3caba-3298-4047-a53a-4be564f4c5ad" />
+
 
 ---
 
@@ -781,7 +790,8 @@ Pemilihan fitur sangat penting karena model machine learning yang dilatih dengan
 
 Encoding dalam machine learning adalah proses mengonversi data non-numerik (kategorikal atau teks) menjadi bentuk numerik.
 
-> 🖼️ *Gambar: `dos-afc1b80f3d49efba7974241f8a1cb1ee20241016211614.jpeg`*
+<img width="751" height="722" alt="image" src="https://github.com/user-attachments/assets/fcc4d846-b5a9-46a5-b1fb-52bb3675b6ac" />
+
 
 Tujuan utamanya agar data tersebut dapat dimengerti oleh komputer sehingga dapat menjadi model yang dapat digunakan. Hal ini sangat penting karena sebagian besar algoritma machine learning bekerja dengan angka untuk menghitung jarak, perhitungan statistik, dan pengambilan keputusan.
 
@@ -789,19 +799,20 @@ Tujuan utamanya agar data tersebut dapat dimengerti oleh komputer sehingga dapat
 
 Binning digunakan untuk mengubah data numerik kontinu menjadi kategori atau interval diskrit. Tujuannya adalah untuk menyederhanakan data numerik dengan memisahkannya menjadi beberapa kelompok atau bin berdasarkan rentang atau distribusi nilai tertentu.
 
-> 🖼️ *Gambar: `dos-0cd3cc9c8bf8e29682a6be9109399f7020241016211615.jpeg`*
+<img width="780" height="427" alt="image" src="https://github.com/user-attachments/assets/feef9b6c-0fd2-49ca-bbb7-a150caecc18c" />
 
 ### Scaling Fitur
 
 Scaling feature pada machine learning adalah proses menyesuaikan rentang atau skala nilai-nilai fitur agar berada dalam rentang tertentu yang lebih seragam. Proses ini memiliki peran yang cukup penting karena banyak algoritma machine learning sensitif terhadap perbedaan skala antara fitur.
 
-> 🖼️ *Gambar: `dos-eae64a3e48ea49c83c3f6874fcc73f6b20241016211613.jpeg`*
+<img width="780" height="427" alt="image" src="https://github.com/user-attachments/assets/09cbbd78-6438-4fd9-8046-11ce3b9c9922" />
 
 Jika nilai pada masing-masing fitur tidak di-scaling, algoritma yang Anda gunakan mungkin akan memberikan bobot lebih pada fitur dengan rentang nilai yang lebih besar padahal tidak selalu berarti fitur tersebut lebih penting. Scaling membantu memastikan bahwa semua fitur memiliki kontribusi yang seimbang dalam proses training model machine learning.
 
 Secara umum terdapat dua teknik yang dapat Anda gunakan untuk mengubah skala data agar konsisten yaitu normalisasi dan standardisasi. Perhatikan perbedaan pada gambar berikut.
 
-> 🖼️ *Gambar: `dos-6ff5fecac908f9b3a6df562f16e3201520241016211612.jpeg`*
+<img width="762" height="361" alt="image" src="https://github.com/user-attachments/assets/04ecfd49-2bea-4842-955e-956c6b4a61c7" />
+
 
 ### Penanganan Outlier
 
@@ -809,7 +820,8 @@ Dalam statistik, outlier adalah sebuah nilai yang jauh berbeda dari kumpulan nil
 
 Apa pun alasan kemunculannya, Anda perlu tahu cara mengidentifikasi dan memproses outlier. Ini adalah bagian penting dalam persiapan data di dalam machine learning. Salah satu cara termudah untuk mengecek apakah terdapat outlier dalam data kita adalah dengan melakukan visualisasi.
 
-> 🖼️ *Gambar: `dos-dc52b6b04af45421bf1e06738ae5f9af20241016211614.jpeg`*
+<img width="728" height="430" alt="image" src="https://github.com/user-attachments/assets/b632d871-17a4-4043-94c9-0dcba8077cf1" />
+
 
 Dapat dilihat dengan jelas bahwa terdapat satu sampel yang jauh berbeda dengan sampel-sampel lainnya. Setelah mengetahui bahwa di data kita terdapat outlier, kita dapat mencari lalu menghapus sampel tersebut dari dataset.
 
@@ -823,7 +835,8 @@ Misalnya, jika 95% dari data termasuk dalam kelas mayoritas dan hanya 5% dalam k
 
 Google secara resmi memberikan tiga buah level untuk kondisi imbalance yang berbeda-beda dihitung dari proporsi ketidakseimbangannya.
 
-> 🖼️ *Gambar: `dos-c34a7c9fa885d8ddce37f3d6382df73520241016211612.jpeg`*
+<img width="797" height="125" alt="image" src="https://github.com/user-attachments/assets/d213f0ed-dd56-4b55-95f6-321a63af744e" />
+*
 
 Pada situsnya, Google memberikan saran untuk tetap melakukan pembangunan model machine learning pada dataset yang tidak seimbang. Hal ini dibutuhkan agar Anda memiliki baseline model sehingga dapat membandingkan hasil dari dataset yang imbalance dengan eksperimen kedepannya. Setelah itu, Anda perlu mencoba beberapa teknik untuk mengatasi permasalahan imbalance dataset seperti oversampling atau undersampling.
 
@@ -839,7 +852,8 @@ Berbanding terbalik dengan oversampling, undersampling adalah metode yang mengur
 
 Synthetic Minority Over-sampling Technique (SMOTE) adalah teknik oversampling yang dirancang untuk menangani masalah imbalanced dataset pada machine learning. Berbeda dengan random oversampling yang hanya menduplikasi sampel dari kelas minoritas, SMOTE menghasilkan sampel sintetis (baru) berdasarkan data yang sudah ada di kelas minoritas. Dari hal itu terciptalah variasi baru di dalam dataset dan mengurangi risiko overfitting yang mungkin terjadi jika kita hanya menduplikasi data secara acak.
 
-> 🖼️ *Gambar: `dos-2396e1524d074715814eec27f461dc7e20241016211613.jpeg`*
+<img width="773" height="331" alt="image" src="https://github.com/user-attachments/assets/22077820-e788-42f1-bc2a-e950427b4eda" />
+
 
 Sebenarnya metode SMOTE juga bekerja dengan cara yang tidak terlalu rumit. Secara umum, metode ini memiliki tiga buah langkah yang harus dilakukan hingga menghasilkan data yang seimbang.
 
