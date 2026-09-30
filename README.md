@@ -225,7 +225,7 @@ Proses loading dataset biasanya mencakup pengambilan data dari sumber eksternal 
 
 Data Cleaning atau pembersihan data adalah proses penting dalam alur kerja machine learning yang bertujuan untuk meningkatkan kualitas dataset sebelum digunakan untuk pelatihan model. Dalam konteks machine learning, data cleaning mencakup serangkaian langkah yang dirancang untuk mendeteksi, memperbaiki, atau menghapus data yang tidak valid, tidak lengkap, tidak akurat, atau tidak relevan. Silakan simak gambar berikut dan perhatikan secara saksama.
 
-> 🖼️ *Gambar: `dos-9ae4f243109cd9d58c6a5a4b0e817f6220241015133226.jpeg`*
+![Uploading image.png…]()
 
 ### Exploratory dan Explanatory Data Analysis
 
