@@ -1,4 +1,4 @@
-<img width="797" height="125" alt="image" src="https://github.com/user-attachments/assets/7bf67f98-678c-4fe7-a098-d5b23b61888e" /># 📚 Rangkuman Kelas: Belajar Machine Learning untuk Pemula
+# 📚 Rangkuman Kelas: Belajar Machine Learning untuk Pemula
 
 ## 📑 Daftar Isi
 
