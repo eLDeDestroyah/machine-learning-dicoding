@@ -256,6 +256,8 @@ Jika disimpulkan, explanatory analysis merupakan proses penyampaian temuan menar
 ### Data Splitting
 
 Data Splitting adalah proses membagi dataset menjadi beberapa subset yang terpisah untuk tujuan pelatihan, validasi, dan pengujian model machine learning. Proses ini merupakan langkah penting dalam pipeline machine learning karena membantu memastikan model yang dikembangkan mampu membuat prediksi yang baik tidak hanya pada data pelatihan, tetapi juga pada data baru yang belum pernah dilihat sebelumnya.
+<img width="1071" height="588" alt="image" src="https://github.com/user-attachments/assets/a6fb5a74-b379-4fbb-9e66-fa8a4af46eea" />
+
 
 ### Deployment dan Monitoring
 
@@ -316,6 +318,8 @@ Ada tiga jenis utama klasifikasi berdasarkan jumlah kelas atau label yang harus 
 
 Algoritma K-Nearest Neighbors (KNN) adalah metode supervised learning yang digunakan untuk klasifikasi dan regresi. Dikembangkan oleh Evelyn Fix dan Joseph Hodges pada tahun 1951, dan kemudian diperluas oleh Thomas Cover, KNN dikenal sebagai salah satu algoritma klasifikasi yang paling sederhana serta intuitif dalam machine learning.
 
+<img width="965" height="450" alt="image" src="https://github.com/user-attachments/assets/2323b883-9ef8-4aa7-be7e-8da31ab0bcf7" />
+
 #### Parameter Utama KNN
 
 **Jumlah Tetangga (K)**
@@ -368,6 +372,10 @@ Algoritma K-Nearest Neighbors (KNN) adalah metode supervised learning yang digun
 
 Decision Tree adalah algoritma machine learning yang digunakan dalam klasifikasi dan regresi. Struktur algoritma ini mirip dengan pohon dengan cabang yang mewakili keputusan berdasarkan fitur-fitur.
 
+<img width="901" height="705" alt="image" src="https://github.com/user-attachments/assets/8f597c0b-4998-43f7-8243-78eb37c8ea87" />
+<img width="912" height="451" alt="image" src="https://github.com/user-attachments/assets/b6e72b6f-f52c-4e0a-a979-e0d02a9f1aa2" />
+
+
 #### Parameter Utama Decision Tree
 
 **Kriteria (Criterion)**
@@ -413,6 +421,9 @@ Decision Tree adalah algoritma machine learning yang digunakan dalam klasifikasi
 ### 🔹 Random Forest
 
 Random Forest adalah algoritma ensemble learning yang menggabungkan banyak Decision Trees untuk meningkatkan akurasi dan mengurangi risiko overfitting. Berikut adalah penjelasan mendetail tentang cara kerja dan parameter utama Random Forest.
+
+<img width="912" height="451" alt="image" src="https://github.com/user-attachments/assets/e0e0c16a-bc7a-4204-8a88-d45f667f1057" />
+<img width="920" height="653" alt="image" src="https://github.com/user-attachments/assets/222da446-a4d1-4a13-9c52-f10974c45478" />
 
 #### Cara Kerja Random Forest
 
@@ -478,12 +489,17 @@ Support Vector Machine (SVM) adalah algoritma machine learning yang digunakan te
 8. **Implementasi dan Penggunaan Model**
    Model yang sudah dilatih diterapkan untuk prediksi pada data baru.
 
+<img width="740" height="563" alt="image" src="https://github.com/user-attachments/assets/2c3496c8-6ed0-4898-a95d-f1fe2badd212" />
+
+
 #### Parameter Utama SVM
 
 - **Kernel:** fungsi yang digunakan untuk mengubah data ke ruang fitur yang lebih tinggi. Tipe kernel termasuk linear, polynomial, RBF, sigmoid, dan precomputed.
 - **Gamma:** faktor yang menentukan seberapa besar pengaruh setiap titik data pada keputusan model. Nilai dapat diatur dengan 'scale', 'auto', atau nilai float.
 - **Regularization (C):** mengontrol kekuatan regularisasi untuk mencegah overfitting. Nilai yang lebih besar berarti kurang regularisasi dan nilai yang lebih kecil berarti lebih banyak regularisasi.
 - **Degree:** hanya berlaku untuk kernel polinomial, ini menentukan derajat polinomial yang digunakan untuk memetakan data ke ruang fitur yang lebih tinggi.
+
+<img width="740" height="563" alt="image" src="https://github.com/user-attachments/assets/a7e3a50f-0217-4aeb-8e9a-2cc2e56697b9" />
 
 #### Kelebihan SVM
 
@@ -504,6 +520,9 @@ Support Vector Machine (SVM) adalah algoritma machine learning yang digunakan te
 ### 🔹 Naive Bayes
 
 Naive Bayes adalah algoritma klasifikasi berbasis probabilitas yang didasarkan pada Teorema Bayes. Algoritma ini mengasumsikan bahwa fitur-fitur dalam data bersifat independen satu sama lain (asumsi "naive"), meskipun dalam kenyataannya, fitur-fitur seringkali saling terkait. Naive Bayes menghitung probabilitas suatu data termasuk dalam kelas tertentu berdasarkan probabilitas prior (kemunculan kelas secara umum) dan probabilitas likelihood (kemunculan fitur tertentu dalam kelas tersebut).
+
+<img width="930" height="398" alt="image" src="https://github.com/user-attachments/assets/c6d520b7-c765-449c-bbd1-16e83f41969b" />
+<img width="900" height="607" alt="image" src="https://github.com/user-attachments/assets/463f5d28-413a-42cb-ae13-0a3361dbd720" />
 
 #### Cara Kerja Naive Bayes
 
@@ -602,6 +621,8 @@ Tujuan utama regresi adalah untuk memprediksi nilai dari variabel dependen berda
 
 #### Linear Regression
 
+<img width="648" height="488" alt="image" src="https://github.com/user-attachments/assets/a3535476-145d-4fe9-88bf-6d63710523f2" />
+
 Linear regression (regresi linear) adalah jenis regresi yang paling sederhana, kita akan mencoba menemukan garis lurus terbaik yang menggambarkan hubungan antara variabel independen (X) dan variabel dependen (Y).
 
 Misalnya, jika kita ingin memprediksi harga rumah berdasarkan ukuran rumah, kita bisa menggunakan regresi linear untuk menemukan garis yang paling cocok antara ukuran rumah (X) dan harga rumah (Y).
@@ -611,6 +632,8 @@ Misalnya, jika kita ingin memprediksi harga rumah berdasarkan ukuran rumah, kita
 Multiple Linear Regression (Regresi Linear Berganda) adalah pengembangan dari regresi linear sederhana yang digunakan untuk memodelkan hubungan antara satu variabel dependen (terkadang disebut variabel respons atau target) dan dua atau lebih variabel independen (juga disebut prediktor atau fitur). Model ini memungkinkan kita untuk memahami bagaimana beberapa faktor memengaruhi hasil yang diinginkan secara simultan.
 
 #### Polynomial Regression
+
+<img width="648" height="488" alt="image" src="https://github.com/user-attachments/assets/a911d6c4-3305-44a7-9942-480432b0c522" />
 
 Polynomial Regression (regresi polinomial) adalah bentuk lanjutan dari regresi linear yang digunakan untuk memodelkan hubungan antara variabel independen dan variabel dependen ketika hubungan tersebut tidak linear. Sebagai pengembangan dari regresi linear, metode regresi polinomial memungkinkan hubungan antara variabel untuk berbentuk kurva dengan derajat yang lebih tinggi daripada garis lurus seperti parabola atau kurva lainnya.
 
@@ -689,12 +712,18 @@ Clustering adalah teknik unsupervised learning untuk mengelompokkan data ke dala
 
 ### Hierarchical Clustering (HC)
 
+<img width="881" height="500" alt="image" src="https://github.com/user-attachments/assets/16543196-7d0f-43d6-ba28-4b8c94bbc9f1" />
+
 HC adalah teknik clustering yang membentuk struktur hierarki antara cluster. Ada dua pendekatan dalam HC:
 
 - **Agglomerative (bottom-up):** setiap objek dimulai sebagai cluster terpisah dan digabungkan hingga menjadi satu cluster besar.
 - **Divisive (top-down):** dimulai dengan satu cluster besar yang dibagi menjadi cluster lebih kecil.
 
 Hierarchical clustering digambarkan dalam dendrogram untuk menunjukkan proses penggabungan atau pemecahan cluster.
+
+<img width="901" height="493" alt="image" src="https://github.com/user-attachments/assets/7d86d4ab-c330-418e-8c21-1810a84e4e3d" />
+<img width="881" height="500" alt="image" src="https://github.com/user-attachments/assets/3559509e-fb1c-4e51-bdc1-7b6e4a88b8c6" />
+
 
 ### Non-hierarchical Clustering (NHC)
 
@@ -705,6 +734,8 @@ Non-hierarchical Clustering (NHC) adalah metode clustering yang membagi data men
 Berikut adalah beberapa metode NHC yang sering digunakan:
 
 #### 🔸 K-Means Clustering
+
+<img width="905" height="397" alt="image" src="https://github.com/user-attachments/assets/978e3c6c-5d54-4190-a579-2dc122627871" />
 
 K-Means Clustering adalah metode yang membagi data menjadi kkk cluster berdasarkan jarak terdekat dari centroid (titik pusat cluster). Ini adalah salah satu metode yang paling umum digunakan karena kesederhanaannya dan efisiensinya.
 
